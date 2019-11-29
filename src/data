@@ -1,0 +1,16 @@
+全部影院列表
+filterCinemas
+    movieId=1292
+    day=2019-11-28
+
+电影详情
+detailmovie
+    movieId=1292
+
+影院详情
+cinemaDetail
+    cinemaId=26195
+
+http://m.maoyan.com/ajax/moreComingList?
+    token=yT7XhpGb9PXGZSwOh3hqy6Panf4AAAAAgQkAAFcE8x4zVGqNgMyOKOb57CQ5yzdS_XEFkeYouSJYZFDKwbtoLzD8EauI48XeTMsj7A
+    movieIds=1238775%2C1201610%2C1278472%2C1284496%2C1233318%2C1257467%2C1283543%2C1280939%2C1255359%2C1301509

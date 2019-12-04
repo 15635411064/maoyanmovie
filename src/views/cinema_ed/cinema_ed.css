@@ -1,0 +1,416 @@
+.Cinema_ed{
+  overflow:-Scroll;
+  overflow-x:hidden;
+}
+.Cinema_ed_header{
+  width:100%;
+  height:103px;
+  background: #e54847;
+}
+.Cinema_ed_header i{
+  float: left;
+  width:31px;
+  height:31px;
+  margin-top: 32px;
+  margin-left: 30px;
+  border-bottom: 4px solid #fff;
+  border-left: 4px solid #fff;
+  transform: rotate(45deg);
+}
+.Cinema_ed_header>p{
+  position: relative;
+  left:-31px;
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 103px;
+  text-align: center;
+  color:#fff;
+  z-index: -1;
+}
+.header_ed{
+  width:100%;
+  height:126px;
+  background: #fff;
+  border-bottom: 2px solid #e3e3e3;
+}
+.header_ed img{
+  float: left;
+  width: 88px;
+  height: 88px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.header_ed>div{
+  float: left;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.header_ed>div p{
+  font-size: 33.5px;
+  margin-top: 12px;
+}
+.header_ed>div span{
+  display: block;
+  font-size: 24.5px;
+  margin-top: 10px;
+  color: #aaa;
+}
+.header_ed button{
+  float: right;
+  width: 138px;
+  height: 58px;
+  margin-top: 34px;
+  margin-right: 30px;
+  font-size: 26px;
+  color: #fff;
+  background: #ef4238;
+  border:none;
+  border-radius: 8px;
+}
+.Cinema_ed_header_th{
+  width:100%;
+  height:150px;
+  background: #fff;
+}
+.Cinema_ed_header_th>div{
+  float: left;
+  width: 521px;
+  margin-top: 25px;
+  margin-left: 32px;
+}
+.Cinema_ed_header_th>div p{
+  font-size: 34px;
+  margin-top: 15px;
+  font-weight: 550;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Cinema_ed_header_th>div span{
+  display: block;
+  font-size: 26px;
+  margin-top: 15px;
+  color: #aaa;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Cinema_ed_header_th i{
+  float: right;
+  margin-right: 40px;
+  margin-top: 42px;
+  border-left: 1px solid #ddd;
+}
+.Cinema_ed_header_th i img{
+  width: 38.5px;
+  height: 45px;
+  padding:10px;
+  padding-left: 52px;
+}
+.Cinema_ed_swiper{
+  width:100%;
+  height: 270px;
+  position : relative;
+  overflow: hidden;
+}
+.Cinema_ed_swiper>img{
+  width:100%;
+  height:350px;
+  position : absolute;
+  filter: blur(20px);
+}
+.swiper_bk{
+  width:100%;
+  height: 270px;
+  background-color: #40454d;
+  opacity: .5;
+  position : absolute;
+}
+/* 轮播 */
+.myswiper{
+  width:100%;
+  height: 270px;
+  position : absolute;
+  top:25px;
+  left:0;
+  overflow: hidden;
+}
+.swiper-slide{
+  width:149.5px;
+  height:224px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+}
+.Cinema_ed_img{
+  width:149.5px;
+  height:218.5px;
+}
+/**/
+.qwq{
+  width:149.5px;
+  height:213px;
+  position : absolute;
+}
+.QAQ{
+  width:0px;
+  height:0px;
+  transform: rotate(45deg);
+  position : absolute;
+  top:219px;
+  left:70px;
+}
+/**/
+.Cinema_ed_nm{
+  width:100%;
+  height: 100px;
+  border-bottom: 2px solid #e3e3e3;
+  text-align: center;
+}
+.Cinema_ed_nm p{
+  font-size: 34px;
+  margin-top: 31.5px;
+  font-weight: 550;
+}
+.Cinema_ed_nm p span{
+  font-size: 32px;
+  color: #ffb400;
+  font-weight: 550;
+}
+.Cinema_ed_nm p span strong{
+  font-size: 23px;
+  font-weight: 550;
+}
+.Cinema_ed_nm>span{
+  display: block;
+  font-size: 26px;
+  margin-top: 15px;
+  color: #aaa;
+}
+.Cinema_ed_tab{
+  height: 90px;
+  border-bottom: 2px solid #f5f5f5;
+}
+.Cinema_ed_tab ul li{
+  float: left;
+  width:195px;
+  height:84px;
+  margin:0 20px;
+  font-size: 29.5px;
+  line-height: 87px;
+  text-align: center;
+}
+.Cinema_ed_main{
+  width:100%;
+  padding-bottom: 18px;
+  background:#efefef;
+}
+.Cinema_ed_main>div{
+  width: 100%;
+  height: 85px;
+  background:#fff5ea;
+  overflow: hidden;
+}
+.Cinema_ed_main>div i{
+  float: left;
+  width: 68px;
+  height: 30px;
+  background:#ff941a;
+  border-radius: 4px;
+  margin-left: 26px;
+  margin-top: 26px;
+  font-size: 20px;
+  line-height: 35px;
+  text-indent: 4px;
+  color:#fff;
+}
+.Cinema_ed_main>div p{
+  float: left;
+  margin-left: 20px;
+  font-size: 24px;
+  line-height: 86px;
+  color:#ff941a;
+}
+.Cinema_ed_main>div span{
+  float: left;
+  margin-left: 120px;
+  font-size: 24.5px;
+  line-height: 85px;
+  color:#999;
+}
+.Cinema_ed_main li{
+  width: 100%;
+  height: 150px;
+  background:#fff;
+  border-bottom: 2px solid #f5f5f5;
+}
+.Cinema_ed_main .main_1{
+  float: left;
+  margin-left: 26px;
+  overflow: hidden;
+}
+.Cinema_ed_main .main_1 p{
+  margin-top: 34px;
+  font-size: 42px;
+}
+.Cinema_ed_main .main_1 span{
+  display: block;
+  margin-top: 17px;
+  font-size: 23px;
+  color:#999;
+}
+.Cinema_ed_main .main_2{
+  float: left;
+  margin-left: 34px;
+  overflow: hidden;
+}
+.Cinema_ed_main .main_2 p{
+  margin-top: 48px;
+  font-size: 26.5px;
+}
+.Cinema_ed_main .main_2 span{
+  display: block;
+  margin-top: 19px;
+  font-size: 23px;
+  color:#999;
+}
+.Cinema_ed_main .main_3{
+  float: right;
+  margin-right: 84px;
+  overflow: hidden;
+}
+.Cinema_ed_main .main_3 p{
+  float: left;
+  margin-top: 42px;
+  margin-bottom: 15px;
+  font-size: 36px;
+  color:#f03d37;
+}
+.Cinema_ed_main .main_3 p i{
+  margin-top: 42px;
+  font-size: 24px;
+}
+.Cinema_ed_main .main_3 p span{
+  width:30px;
+  height:10px;
+  margin-left: 15px;
+  padding: 1px 4px;
+  font-size: 19px;
+  color:#ff941a;
+  border:1px solid #ff941a;
+  border-radius: 3px;
+}
+.Cinema_ed_main .main_3 p span i{
+  font-size: 19px;
+  margin-left: -3px;
+  color:#fff;
+  background:#ff941a;
+}
+.Cinema_ed_main .main_3>span{
+  display: block;
+  font-size: 23px;
+  color:#999;
+}
+.Cinema_ed_main button{
+  float: right;
+  width: 89px;
+  height: 53px;
+  margin-top: 54px;
+  margin-right: 26px;
+  font-size: 24.5px;
+  color: #fff;
+  background: #ef4238;
+  border:none;
+  border-radius: 8px;
+}
+.main_null{
+  width:100%;
+  height:460px;
+  background:#f0f0f0;
+  text-align: center;
+}
+.main_null img{
+  width:155px;
+  height:143px;
+  margin-top: 125px;
+}
+.main_null p{
+  font-size: 33px;
+  color:#acacac;
+  margin-top: 30px;
+}
+.Cinema_ed_food{
+  width:100%;
+  padding-bottom: 52px;
+  background:#efefef;
+}
+.Cinema_ed_food>div{
+  width: 100%;
+  height: 85px;
+  background:#fff;
+  border-bottom: 2px solid #f5f5f5;
+  font-size: 32px;
+  font-weight: 350;
+  line-height: 85px;
+  text-indent: 28px;
+  color:#666;
+}
+.Cinema_ed_food li{
+  width:100%;
+  height:184px;
+  padding:25px;
+  background:#fff;
+  border-bottom: 2px solid #f5f5f5;
+}
+.Cinema_ed_food li img{
+  float: left;
+  width:184px;
+  height:184px;
+  margin-right: 25px;
+}
+.Cinema_ed_food li>p{
+  font-size: 28.5px;
+}
+.Cinema_ed_food li>p>span{
+  display: inline-block;
+  font-size: 23.5px;
+  padding:4px 5px;
+  margin-right: 20px;
+  color: #fff;
+  background: #ff941a;
+  border-radius: 5px;
+}
+.Cinema_ed_food li>div>p{
+  float: left;
+  margin-top: 120px;
+  font-size: 36px;
+  color:#f03d37;
+}
+.Cinema_ed_food li>div>p>span{
+  font-size: 28px;
+}
+.Cinema_ed_food li>div>div{
+  width:200px;
+  float: right;
+}
+.Cinema_ed_food li>div>div>i{
+  display: block;
+  float: right;
+  width:100px;
+  height:30px;
+  margin-top: 58px;
+  margin-right: 45px;
+  color:#999;
+}
+.Cinema_ed_food li button{
+  float: right;
+  width: 105px;
+  height: 53px;
+  margin-top: 13px;
+  margin-right: 55px;
+  font-size: 24.5px;
+  color: #fff;
+  background: #ef4238;
+  border:none;
+  border-radius: 8px;
+}

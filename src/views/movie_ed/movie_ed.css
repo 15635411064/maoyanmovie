@@ -1,0 +1,137 @@
+.Movie_ed{
+    overflow:-Scroll;
+    overflow-x:hidden;
+}
+.Movie_ed_header{
+    width:100%;
+    height:103px;
+    background: #e54847;
+}
+.Movie_ed_header i{
+    float: left;
+    width:31px;
+    height:31px;
+    margin-top: 32px;
+    margin-left: 30px;
+    border-bottom: 4px solid #fff;
+    border-left: 4px solid #fff;
+    transform: rotate(45deg);
+}
+.Movie_ed_header>p{
+    position: relative;
+    left:-31px;
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 103px;
+    text-align: center;
+    color:#fff;
+    z-index: -1;
+}
+.header_ed{
+    width:100%;
+    height:126px;
+    background: #fff;
+    border-bottom: 2px solid #e3e3e3;
+}
+.header_ed img{
+    float: left;
+    width: 88px;
+    height: 88px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.header_ed>div{
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.header_ed>div p{
+    font-size: 33.5px;
+    margin-top: 12px;
+}
+.header_ed>div span{
+    display: block;
+    font-size: 24.5px;
+    margin-top: 10px;
+    color: #aaa;
+}
+.header_ed button{
+    float: right;
+    width: 138px;
+    height: 58px;
+    margin-top: 34px;
+    margin-right: 30px;
+    font-size: 26px;
+    color: #fff;
+    background: #ef4238;
+    border:none;
+    border-radius: 8px;
+}
+.Movie_ed_main{
+    width:100%;
+    height:376px;
+    position: relative;
+    overflow: hidden;
+}
+.Main_bk{
+    width:100%;
+    height:376px;
+    position: absolute;
+    background:#333;
+    z-index: -2;
+}
+.Movie_ed_main>img{
+    width:100%;
+    height:1000px;
+    position: absolute;
+    filter: blur(30px);
+    background-size: cover;
+    opacity: .55;
+    z-index: -1;
+}
+.Movie_ed_act{
+    width:100%;
+    padding:38px 32px;
+}
+.Movie_ed_act img{
+    float: left;
+    width:220px;
+    height:300px;
+    margin-right: 30px;
+}
+.Movie_ed_act>div{
+    width:650px;
+}
+.Movie_ed_act>div>h2{
+    font-size: 40px;
+    font-weight: 600;
+    color:#fff;
+}
+.Movie_ed_act>div>p{
+    font-size: 24px;
+    color:#eee;
+    margin-top: 21.5px;
+}
+.Movie_ed_act>div>p>span{
+    font-size: 41px;
+    font-weight: 600;
+    color:#fc0;
+}
+.Movie_ed_act .iMax{
+    font-size: 19px;
+    font-weight: 100;
+    color:#ddd;
+    margin:0 5px;
+    padding:2px 5px;
+    border:1px solid #bbb;
+    border-radius: 5px;
+}
+.Movie_ed_act>span{
+    position: absolute;
+    top:175px;
+    left:700px;
+}
+.Movie_ed_act>span>img{
+    width:23px;
+    height:32px;
+}
